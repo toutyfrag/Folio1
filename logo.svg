@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="3000" height="3000" viewBox="0, 0, 3000, 3000">
+  <g id="Layer_1">
+    <path d="M1197.817,1353.537 C1034.72,1347.419 908.813,1217.961 906.75,1054.856 C906.75,889.845 1040.517,756.077 1205.528,756.077 C1371.184,757.639 1495.919,883.437 1504.209,1047.144" fill-opacity="0" stroke="#000000" stroke-width="43.5" stroke-linecap="round"/>
+    <path d="M1198.013,1936.16 C1037.152,1936.16 906.75,1805.757 906.75,1644.897" fill-opacity="0" stroke="#000000" stroke-width="43.5"/>
+    <path d="M1197.045,1353.647 L1198.012,1353.634 C1358.872,1353.634 1489.275,1484.037 1489.275,1644.897 C1489.275,1805.757 1358.872,1936.16 1198.012,1936.16" fill-opacity="0" stroke="#000000" stroke-width="43.5" stroke-linecap="round"/>
+    <path d="M1799.23,1346.119 C1636.294,1346.119 1504.209,1214.034 1504.209,1051.098 C1504.209,888.163 1636.294,756.077 1799.23,756.077" fill-opacity="0" stroke="#000000" stroke-width="43.5" stroke-linecap="round"/>
+    <path d="M1806.55,1346.028 C1804.11,1346.064 1801.67,1346.088 1799.23,1346.119" fill-opacity="0" stroke="#000000" stroke-width="43.5" stroke-linecap="round"/>
+    <path d="M1799.23,1936.16 C1636.294,1936.16 1504.209,1804.075 1504.209,1641.14 C1504.209,1478.204 1636.294,1346.119 1799.23,1346.119 L1799.932,1346.128" fill-opacity="0" stroke="#000000" stroke-width="43.5" stroke-linecap="round"/>
+    <path d="M1806.845,1936.064 L1799.23,1936.16" fill-opacity="0" stroke="#000000" stroke-width="43.5" stroke-linecap="round"/>
+    <path d="M1810.406,756.077 L2094.25,756.077" fill-opacity="0" stroke="#000000" stroke-width="43.5" stroke-linecap="round"/>
+    <path d="M2094.25,756.077 L2094.25,1936.16" fill-opacity="0" stroke="#000000" stroke-width="43.5" stroke-linecap="square"/>
+    <path d="M2094.251,1936.16 L1810.406,1936.16" fill-opacity="0" stroke="#000000" stroke-width="43.5" stroke-linecap="round"/>
+    <path d="M1810.406,1346.119 L2094.251,1346.119" fill-opacity="0" stroke="#000000" stroke-width="43.5" stroke-linecap="round"/>
+    <path d="M906.749,756.077 L2094.25,756.077 L2094.25,1936.16 L906.749,1936.16 z" fill-opacity="0" stroke="#000000" stroke-width="43.5" stroke-linecap="square"/>
+    <text transform="matrix(1, 0, 0, 1, 1500, 2161.021)">
+      <tspan x="-589.302" y="28.598" font-family="Futura-Bold" font-size="108" fill="#000000">STEVENS BOUGAULT</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,470 @@
+body {
+  display: grid;
+  font-family: Raleway
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 90px;
+  padding-bottom: 10px
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: #999;
+}
+
+
+/* section */
+.white-section {
+  background-color: #FFFFFF;
+}
+
+.home-page-text {
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 90px;
+  text-align: left;
+  padding-top: 120px;
+  padding-left: 53px;
+  margin-bottom: 190px;
+}
+
+/* navbar */
+.nav-item {
+  padding-right: 8px;
+}
+
+.nav-link {
+  color: black;
+  padding: 18px 16px;
+}
+
+.nav-link:hover {
+  color: #999;
+}
+
+.navbar-toggler {
+  color: black;
+}
+
+.grey-link {
+  color: #999;
+}
+
+.grey-link:hover {
+  color: #999;
+  text-decoration: line-through;
+}
+
+/* icon */
+.icon {
+  color: black;
+  font-size: 60px;
+}
+
+.fa-square-full {
+  font-size: 1rem;
+  padding-left: 3px;
+}
+
+/* looking */
+.looking {
+  background-color: #222;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 90px;
+  text-align: left;
+  padding: 50px 40px
+}
+
+/* social-media */
+.social-bloc {
+  color: #FFFFFF;
+  height: 250px;
+  font-size: 50px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.social-text {
+  font-weight: 900;
+  font-size: 40px;
+  opacity: 0;
+  color: inherit;
+  position: absolute;
+}
+.social-text:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.twitter-bloc {
+  background-color: #09a8fa;
+  color: #FFFFFF;
+}
+
+.twitch-bloc {
+  background-color: #6441a5;
+}
+
+.github-bloc {
+  background-color: #000000;
+}
+
+.linkedin-bloc {
+  background-color: #3fc5f0;
+}
+
+.blog-bloc {
+  background-color: #f3c623
+}
+
+.social-bloc:hover>.bloc-icon {
+  transition-delay: 0.3s;
+  opacity: 0.4
+}
+
+.social-bloc:hover>.social-text {
+  transition-delay: 0.3s;
+  opacity: 1
+}
+
+/* my-journey */
+.social-headings {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* footer section */
+.footer {
+  background-color: #FFFFFF;
+  color: black;
+  text-align: center;
+  padding: 0;
+}
+.logo-footer{
+  height: 100px;
+  width:100px;
+}
+.footer-text{
+  color: black;
+  margin-bottom: 0;
+}
+.footer-text:hover{
+  color: black;
+  text-decoration: none;
+}
+.logo-footer{
+  height: 100px;
+  width:100px;
+}
+@media (max-width:991px) {
+  .text-input {
+    font-size: 78px;
+  }
+
+  .looking {
+    font-size: 78px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+  }
+}
+
+/* about me page  */
+.about-me-home {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.about-me {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  padding: 7% 3.5%;
+}
+
+.picture {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+
+}
+
+.picture-stevens {
+ height: 33.5vw;
+
+}
+
+.text {
+  font-size: 1.3vw;
+  padding-top: 0%;
+  padding-bottom: 10px;
+  max-height: 100%;
+}
+
+@media (min-width:1920px){
+ .text{
+   font-size: 1.05vw;
+ }
+ .picture-stevens{
+   height: vw;
+ }
+ .container-about-me{
+   padding-left: 4%;
+   padding-right:4%;
+ }
+ .contact-heading{
+
+
+ }
+
+}
+/* blog section */
+
+.blog-headers{
+  padding-top: 150px;
+  padding-bottom: 60px;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+}
+.hr-margin{
+  margin-top: 75px;
+}
+.blog-box{
+  padding-bottom: 80px;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: left;
+}
+.date-blog{
+  color: #838383;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+/* Contact */
+
+.contact-heading{
+  display:flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-left: 6%;
+  padding-right: 4.8%;
+
+}
+.contact-heading .h1{
+  font-size: 100px
+}
+.contact-detail{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 5.8%;
+  font-size: 18px;
+  font-weight: 500;
+}
+.read-more-link{
+  margin-bottom: 10px;
+ font-size: 1vw;
+ letter-spacing: 1px;
+ text-align: center;
+ padding-top: 30px;
+ border: 1px solid;
+ padding: 8px;
+ color: white;
+}
+.link-contact-me{
+  color: #09a8fa;
+  text-decoration: none;
+}
+.contact-me-section{
+padding-top: 8vw;
+}
+
+.journey-h1{
+  font-size: 80PX;
+}
+
+.logo{
+height: 140px;
+width: 140px;
+}
+.navbar-brand{
+padding: 0;
+}
+.navbar{
+padding-top: 0px;
+  padding-left: 0px;
+}
+
+/* blog-page */
+
+.blog-page-text{
+  font-size: 17px;
+  padding: 50px 200px;
+}
+.date-blog-article{
+  font-size: 19px;
+  margin-bottom: 35px;
+}
+.blog-article-heading{
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+.blog-paragraph{
+  font-weight: 400;
+}
+.question{
+  padding-top: 35px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+.blog-title{
+  font-size: 30PX;
+  margin-bottom: 10px;
+}
+.say-hi{
+  color: black;
+}
+.say-hi:hover {
+  color: #999;
+  text-decoration: line-through;
+}
+.footer-logo{
+  position: static;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+.work-page{
+  text-align: center;
+}
+.work-title{
+  margin: 4vw 12%;
+  font-size: 300%;
+
+  font-weight: 600;
+}
+.work-text{
+  margin: 2% 12%;
+  padding: 0 7%;
+  font-size: 175%;
+  font-weight: 500;
+}
+
+
+
+@media (max-width: 1023px)  {
+
+  .text-input {
+    font-size: 78px;
+  }
+
+  .work-title{
+    padding-top: 14%;
+    font-size: 6.5vw;
+  }
+  .work-text{
+    margin: 10% 5%;
+    font-size: 3.6vw;
+  }
+
+  .picture{
+    margin-bottom: 7%;
+  }
+  .text{
+    font-size: 160%;
+    text-align: center;
+  }
+  .about-me-home{
+    padding-left: 15px;
+    text-align: center;
+  }
+  .contact-detail{
+  text-align: center;
+  padding: 5%;
+}
+.contact-heading{
+  padding-left: 15px;
+  padding-top: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.read-more-link{
+  font-size: 20px;
+}
+.blog-title{
+  font-size: 5.2vw;
+  margin-bottom: 2%;
+}
+.date-blog{
+  font-size: 2.8vw;
+  font-weight: 500;
+}
+.intro-blog{
+  font-size: 3vw;
+  font-weight: 500;
+}
+.contact-detail{
+  font-size: 3.9vw;
+  margin-top: 2%;
+}
+.date-blog-article{
+  font-size: 2.7vw
+}
+.blog-article-heading{
+  font-size: 6.5vw;
+}
+.blog-paragraph{
+  font-size: 3.6vw;
+  font-weight: 500;
+}
+.blog-page-text{
+  padding: 10%
+}
+.blog-headers{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+.blog-box{
+  margin-left: 18%;
+  margin-right: 18%;
+}
+.nav-link{
+  font-size: 3.5vw;
+}
+.question{
+  font-size: 4vw;
+}
+.follow-intro{
+  font-size: 2.5vw;
+}
+  }
